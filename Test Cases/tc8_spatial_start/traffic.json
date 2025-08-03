@@ -1,0 +1,24 @@
+{
+  "flights": [
+    {
+      "drone_id": "SPATIAL_START",
+      "mission_name": "Spatial Conflict Start",
+      "start_time": "2025-08-01T10:00:00",
+      "end_time": "2025-08-01T10:00:10",
+      "waypoints": [
+        {
+          "x": 0,
+          "y": 0.5,
+          "z": 15,
+          "timestamp": "2025-08-01T10:00:00"
+        },
+        {
+          "x": 10,
+          "y": 10,
+          "z": 15,
+          "timestamp": "2025-08-01T10:00:10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Primary flight": [
+    {
+      "drone_id": "PRIMARY",
+      "mission_name": "Emergency Operation",
+      "start_time": "2025-08-01T10:00:20",
+      "end_time": "2025-08-01T10:00:30",
+      "waypoints": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 15,
+          "timestamp": "2025-08-01T10:00:00"
+        },
+        {
+          "x": 10,
+          "y": -10,
+          "z": 15,
+          "timestamp": "2025-08-01T10:00:10"
+        }
+      ]
+    }
+  ]
+}
