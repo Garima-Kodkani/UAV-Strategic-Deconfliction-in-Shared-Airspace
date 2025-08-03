@@ -1,0 +1,62 @@
+{
+    "flights": [
+      {
+        "drone_id": "DRONE_001",
+        "mission_name": "Package Delivery Route A",
+        "start_time": "2025-08-01T10:00:00",
+        "end_time": "2025-08-01T10:00:10",
+        "waypoints": [
+          { "x": 0, "y": 0, "z": 10, "timestamp": "2025-08-01T10:00:00" },
+          { "x": 10, "y": 0, "z": 10, "timestamp": "2025-08-01T10:00:10" }
+        ]
+      },
+      {
+        "drone_id": "DRONE_002",
+        "mission_name": "Agricultural Survey Mission B",
+        "start_time": "2025-08-01T10:00:05",
+        "end_time": "2025-08-01T10:35:00",
+        "waypoints": [
+          {"x": 400, "y": 100, "z": 80, "timestamp": "2025-08-01T10:00:05"},
+          {"x": 300, "y": 250, "z": 85, "timestamp": "2025-08-01T10:00:15"},
+          {"x": 150, "y": 380, "z": 90, "timestamp": "2025-08-01T10:00:25"},
+          {"x": 50, "y": 450, "z": 70, "timestamp": "2025-08-01T10:00:35"}
+        ]
+      },
+      {
+        "drone_id": "DRONE_003",
+        "mission_name": "Infrastructure Inspection Route C",
+        "start_time": "2025-08-01T10:08:00",
+        "end_time": "2025-08-01T10:38:00",
+        "waypoints": [
+          {"x": 150, "y": 150, "z": 90, "timestamp": "2025-08-01T10:00:08"},
+          {"x": 200, "y": 200, "z": 95, "timestamp": "2025-08-01T10:00:18"},
+          {"x": 250, "y": 300, "z": 85, "timestamp": "2025-08-01T10:00:28"},
+          {"x": 320, "y": 380, "z": 75, "timestamp": "2025-08-01T10:00:38"}
+        ]
+      },
+      {
+        "drone_id": "DRONE_004",
+        "mission_name": "Emergency Response Mission D",
+        "start_time": "2025-08-01T10:12:00",
+        "end_time": "2025-08-01T10:27:00",
+        "waypoints": [
+          {"x": 350, "y": 50, "z": 100, "timestamp": "2025-08-01T10:00:12"},
+          {"x": 250, "y": 150, "z": 120, "timestamp": "2025-08-01T10:00:19"},
+          {"x": 180, "y": 280, "z": 110, "timestamp": "2025-08-01T10:00:27"}
+        ]
+      },
+      {
+        "drone_id": "DRONE_005",
+        "mission_name": "Search and Rescue Pattern E",
+        "start_time": "2024-01-15T10:15:00",
+        "end_time": "2024-01-15T10:45:00",
+        "waypoints": [
+          {"x": 80, "y": 80, "z": 60, "timestamp": "2025-08-01T10:00:15"},
+          {"x": 180, "y": 80, "z": 65, "timestamp": "2025-08-01T10:00:22"},
+          {"x": 180, "y": 180, "z": 70, "timestamp": "2025-08-01T10:00:30"},
+          {"x": 80, "y": 180, "z": 65, "timestamp": "2025-08-01T10:00:37"},
+          {"x": 80, "y": 80, "z": 60, "timestamp": "2025-08-01T10:00:45"}
+        ]
+      }
+    ]
+  }
