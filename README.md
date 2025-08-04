@@ -10,15 +10,15 @@ A detailed explaination and comparison of the two is given in the documention pr
 ### System Architecture
 
 The system is built with a modular architecture consisting of several key components:
-  main.py                    # Entry point
-  main_controller.py         # Main orchestration logic
-  data_loader.py            # JSON data loading and validation
-  conflict_detector.py      # Main conflict detection coordinator
-  spatial_analyzer.py       # Spatial conflict detection algorithms
-  temporal_analyzer.py      # Temporal conflict detection algorithms
-  visualization_engine.py   # All visualization functionality
-  flight_data.json         # Sample flight data
-  primary_drone.json       # Sample primary drone data
+├── main.py                    → Entry point
+├── main_controller.py         → Main orchestration logic
+├── data_loader.py             → JSON data loading and validation
+├── conflict_detector.py       → Main conflict detection coordinator
+├── spatial_analyzer.py        → Spatial conflict detection algorithms
+├── temporal_analyzer.py       → Temporal conflict detection algorithms
+├── visualization_engine.py    → All visualization functionality
+├── flight_data.json           → Sample flight data
+└── primary_drone.json         → Sample primary drone data
 
 ## Method 2
 
