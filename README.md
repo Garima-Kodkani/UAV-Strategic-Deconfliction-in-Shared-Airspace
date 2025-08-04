@@ -3,9 +3,12 @@
 Two methods have been implemented to calculate the occurence of spatial and temporal conflicts in a shared airspace.
 A detailed explaination and comparison of the two is given in the documention provided.
 
-<u>Method 1</u>
+---
 
-System Architecture
+## Method 1
+
+### System Architecture
+
 The system is built with a modular architecture consisting of several key components:
   main.py                    # Entry point
   main_controller.py         # Main orchestration logic
@@ -17,9 +20,10 @@ The system is built with a modular architecture consisting of several key compon
   flight_data.json         # Sample flight data
   primary_drone.json       # Sample primary drone data
 
-<u>Method 2</u>
+## Method 2
 
-System Architecture
+### System Architecture
+
 The system is built with a modular architecture consisting of several key components:
   main.py                    # Entry point
   main_controller.py         # Main orchestration logic
@@ -30,9 +34,15 @@ The system is built with a modular architecture consisting of several key compon
   flight_data.json         # Sample flight data
   primary_drone.json       # Sample primary drone data
 
-Prerequisites
-Python 3.7+
-Required Python packages:
+
+---
+
+## Prerequisites
+
+- Python 3.7+
+- Required Python packages:
+
+```bash
 pip install numpy matplotlib plotly datetime typing
 
 Basic Usage
