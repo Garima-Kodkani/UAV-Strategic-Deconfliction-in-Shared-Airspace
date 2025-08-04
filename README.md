@@ -45,11 +45,14 @@ The system is built with a modular architecture consisting of several key compon
 ```bash
 pip install numpy matplotlib plotly datetime typing
 
-Basic Usage
+---
+
+## Basic Usage
 
 Prepare your data files: Create JSON files for your drone flight data following the provided format
 Update file paths: Modify the file paths in main.py to point to your data files
 Run the analysis:
+```bash
   python3 main.py
 
 Configuration
