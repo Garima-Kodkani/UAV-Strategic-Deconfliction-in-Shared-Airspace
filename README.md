@@ -28,15 +28,17 @@ The system is built with a modular architecture consisting of several key compon
 ### System Architecture
 
 The system is built with a modular architecture consisting of several key components:
-  main.py                    # Entry point
-  main_controller.py         # Main orchestration logic
-  data_loader.py            # JSON data loading and validation
-  conflict_detector.py      # Main conflict detection coordinator
-  spatial_analyzer.py       # Conflict detection algorithm
-  visualization_engine.py   # All visualization functionality
-  flight_data.json         # Sample flight data
-  primary_drone.json       # Sample primary drone data
 
+```
+├── main.py                    → Entry point
+├── main_controller.py         → Main orchestration logic
+├── data_loader.py             → JSON data loading and validation
+├── conflict_detector.py       → Main conflict detection coordinator
+├── spatial_analyzer.py        → Conflict detection algorithms
+├── visualization_engine.py    → All visualization functionality
+├── flight_data.json           → Sample flight data
+└── primary_drone.json         → Sample primary drone data
+```
 
 ---
 
