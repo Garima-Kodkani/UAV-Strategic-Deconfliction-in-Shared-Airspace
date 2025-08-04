@@ -44,24 +44,40 @@ The system is built with a modular architecture consisting of several key compon
 
 ```bash
 pip install numpy matplotlib plotly datetime typing
+```
 
 ---
 
 ## Basic Usage
 
-Prepare your data files: Create JSON files for your drone flight data following the provided format
-Update file paths: Modify the file paths in main.py to point to your data files
-Run the analysis:
-```bash
-  python3 main.py
+1. **Prepare Your Data Files**
 
-Configuration
+   Create JSON files for your drone flight data following the provided format
+
+2. **Update File Paths**
+
+   Modify the file paths in main.py to point to your data files
+
+3. **Run the analysis**
+    ```bash
+      python3 main.py
+    ```
+---
+
+## Configuration
+
 You can customize the system parameters in the file main.py
+
+```bash
   drone_radius=10.0,    # Safety radius in meters
   time_threshold=2.0    # Time threshold for temporal conflicts in seconds
+```
+---
 
-Data Format
-Flight Data Format (flight_data.json)
+## Data Format
+
+### Flight Data Format (flight_data.json)
+```bash
   {
     "flights": [
       {
@@ -76,8 +92,10 @@ Flight Data Format (flight_data.json)
       }
     ]
   }
+```
 
-Primary Drone Format (primary_drone.json)
+### Primary Drone Format (primary_drone.json)
+```bash
   {
     "Primary flight": [
       {
@@ -92,3 +110,4 @@ Primary Drone Format (primary_drone.json)
       }
     ]
   }
+```
